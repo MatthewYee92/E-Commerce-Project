@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Homepage = () => {
+
+
   return (
-    <div className='homepage'></div>
-    <div className='directory-menu'></div>
-    <div className='menu.item'></div>
-    <div className='homepage'></div>
-    <div className='homepage'></div>
+    <Fragment/>
+    <div className='homepage'>
+    <div className='directory-menu'>
+      <div className='menu-item'>
+        
+      </div>
+    </div>
+    </div>
+    <Fragment/>
   )
 };
 
